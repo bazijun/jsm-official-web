@@ -8,6 +8,6 @@ source ~/.bashrc
 echo $ALICLOUD_ACCOUNT_ID
 s config add --AccessKeyID $ALICLOUD_ACCESS_KEY_ID --AccessKeySecret $ALICLOUD_ACCESS_KEY_SECRET -a $ALICLOUD_ACCESS
 
-(cd code && mvn package && echo $(pwd))
+echo $(pwd)
 
 s deploy -y --use-local --access $ALICLOUD_ACCESS
