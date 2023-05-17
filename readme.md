@@ -1,7 +1,7 @@
 ### 成都金双茂印刷设计公司官网
 
 
-`Next.js + Serverless Devs`
+`Next13 + Serverless Devs`
 
 
 [入口](https://jsmyssj.cn)
