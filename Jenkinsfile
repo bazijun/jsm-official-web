@@ -1,4 +1,5 @@
 pipeline {
+    agent any
     environment {
         ALICLOUD_ACCESS = 'default'
         ALICLOUD_ACCESS_KEY_ID     = credentials('jenkins-alicloud-access-key-id')
