@@ -9,6 +9,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
+                sh 'chmod 777 scripts/setup.sh'
                 sh 'scripts/setup.sh'
             }
         }
