@@ -58,6 +58,7 @@ services:
         runtime: custom
         timeout: 60
         caPort: 3000
+        memorySize: 1024 
         layers:
           - acs:fc:${vars.region}:official:layers/Nodejs16/versions/1
         environmentVariables:
@@ -74,7 +75,7 @@ services:
             methods:
               - GET
       customDomains:
-        - domainName: auto
+        - domainName: jsm.bazijun.top
           protocol: HTTP
           routeConfigs:
             - path: '/*'
