@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                echo 'node -v'
+                sh 'node -v'
                 sh 'chmod +x scripts/setup.sh'
                 sh 'scripts/setup.sh'
             }
