@@ -23,7 +23,7 @@ pipeline {
                 // sh 'chmod +x scripts/setup.sh'
                 // sh 'scripts/setup.sh'
                 sh 'curl -o- -L http://cli.so/install.sh | bash'
-                sh 'source $HOME/.bashrc'
+                sh 'echo "source $(which nvm.sh)" >> ~/.bashrc'
                 sh 's config add --AccessKeyID $ALICLOUD_ACCESS_KEY_ID --AccessKeySecret $ALICLOUD_ACCESS_KEY_SECRET -a $ALICLOUD_ACCESS'
                 sh 'echo -------node--$(node -v)--node---------'
                 sh 's deploy -y --use-local --access $ALICLOUD_ACCESS'
