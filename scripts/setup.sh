@@ -10,6 +10,4 @@ s config add --AccessKeyID $ALICLOUD_ACCESS_KEY_ID --AccessKeySecret $ALICLOUD_A
 
 echo $(pwd)
 
-node -v
-
 s deploy -y --use-local --access $ALICLOUD_ACCESS
