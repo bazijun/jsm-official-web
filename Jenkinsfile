@@ -6,7 +6,7 @@ pipeline {
         ALICLOUD_ACCESS_KEY_SECRET     = credentials('jenkins-alicloud-access-key-secret')
     }
     tools {
-        nodejs "node-18.16.0"
+        nodejs "nodeJs18.16.0"
     }
     stages {
         stage('Setup') {
