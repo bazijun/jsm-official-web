@@ -1,3 +1,4 @@
+import { ContactButtons } from "@/ui/ContactButtons";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -5,7 +6,7 @@ export default function Home() {
       <header className="w-full px-6 bg-white">
         <div className="container mx-auto max-w-4xl md:flex justify-between items-center">
           <a className="block py-3 w-full text-lg text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-center items-center">
-            金双茂印刷设计
+            成都金双茂印刷设计
           </a>
         </div>
       </header>
@@ -28,7 +29,7 @@ export default function Home() {
               href="#"
               className="px-2 md:pl-0 md:mr-3 md:pr-3 text-gray-700 no-underline md:border-r border-gray-400"
             >
-              关于我们
+              关于
             </a>
           </div>
           <div className="w-full md:w-1/2 text-center md:text-right pb-4 md:p-0">
@@ -50,13 +51,10 @@ export default function Home() {
           <h1 className="text-3xl lg:text-7xl mb-4 font-bold uppercase italic text-white">
             成都老字号印刷设计
           </h1>
-          <p className="text-lg lg:text-3xl md:text-lg text-center font-bold uppercase italic text-white ">还有你想要的一切</p>
-          <a
-            href="tel:13908178322"
-            className="mt-6 inline-block bg-white text-black no-underline px-4 py-3 shadow-lg"
-          >
-            点击咨询
-          </a>
+          <p className="text-lg lg:text-3xl md:text-lg text-center font-bold uppercase italic text-white ">
+            还有你想要的一切
+          </p>
+          <ContactButtons />
         </div>
       </div>
       <div className="h-[60vh]" />
@@ -83,7 +81,10 @@ export default function Home() {
             </a>
           </div>
           <div className="md:p-0 text-center md:text-right text-xs">
-            <a href="tel:13908178322" className="text-black no-underline hover:underline ml-4">
+            <a
+              href="tel:13908178322"
+              className="text-black no-underline hover:underline ml-4"
+            >
               联系我们：13908178322
             </a>
           </div>

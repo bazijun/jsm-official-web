@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "金双茂印刷设计",
+  title: "成都金双茂印刷设计",
   description: "全成都最便宜的印刷设计一站式服务平台",
   formatDetection: { telephone: "yse" },
 };

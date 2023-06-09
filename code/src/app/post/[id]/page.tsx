@@ -1,4 +1,4 @@
-import { E } from "@/ui/client";
+import { E } from "@/ui/ContactButtons";
 
 type paramsType = {
   params: Record<string, string>;
