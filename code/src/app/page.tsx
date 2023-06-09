@@ -3,16 +3,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <header className="w-full px-6 bg-white">
-        <div className="container mx-auto max-w-4xl md:flex justify-between items-center">
-          <a className="block py-3 w-full text-lg text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-center items-center">
-            成都金双茂印刷设计
-          </a>
-        </div>
-      </header>
-      <nav className="w-full bg-white md:pt-0 px-6 shadow-lg relative z-20 border-t border-b border-gray-400">
-        <div className="container mx-auto max-w-4xl md:flex justify-between items-center text-sm md:text-md md:justify-start">
-          <div className="w-full md:w-1/2 text-center md:text-left py-4 flex flex-wrap justify-center items-stretch md:justify-start md:items-start">
+      <nav className="w-full bg-white md:pt-0 px-6 shadow-lg relative z-20 border-b border-gray-400">
+        <div className="container mx-auto md:flex justify-between items-center text-sm md:text-md md:justify-start">
+          <header className="w-full text-center md:p-0">
+            <a className="py-3 w-full text-lg text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-center md:justify-start items-center">
+              成都金双茂印刷设计
+            </a>
+          </header>
+          <div className="w-full md:w-1/2 text-center md:text-left py-4 flex flex-wrap justify-center items-stretch md:justify-end md:items-start">
             <a
               href="#"
               className="px-2 md:pl-0 md:mr-3 md:pr-3 text-gray-700 no-underline md:border-r border-gray-400"
@@ -32,19 +30,12 @@ export default function Home() {
               关于
             </a>
           </div>
-          <div className="w-full md:w-1/2 text-center md:text-right pb-4 md:p-0">
-            <input
-              type="search"
-              placeholder="发现更多..."
-              className="bg-gray-100 border text-sm p-1"
-            />
-          </div>
         </div>
       </nav>
       <div
         className="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10"
         style={{
-          backgroundImage: `url('https://cdn.bazijun.top/img/6458c2fd4142bf31c11d8792.png`,
+          backgroundImage: `url('https://cdn.bazijun.top/img/6458c2fd4142bf31c11d8792.png')`,
         }}
       >
         <div className="container max-w-4xl mx-auto text-center">
@@ -70,7 +61,7 @@ export default function Home() {
           <div className="flex gap-1 items-center">
             <Image
               src="https://cdn.bazijun.top/img/police_beian.png"
-              alt="police_beian"
+              alt="警徽"
               className="dark:invert"
               width={16}
               height={16}
