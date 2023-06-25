@@ -5,11 +5,11 @@ import yhLogoSrc from "~/img/yh-logo.jpg";
 import xxerLogo from "~/img/xxer-logo.png";
 import lhwsLogo from "~/img/lhws-logo.png";
 import printingMachineSrc from "~/img/printing-machine.png";
-import cd1 from "~/img/cd-1.jpg";
 import cd2 from "~/img/cd-2.jpg";
+import zy1 from "~/img/zy-1.jpg";
 import cd3 from "~/img/cd-3.jpg";
-import dz1 from "~/img/dz-1.jpg";
-import hk1 from "~/img/hk-1.jpg";
+import dz2 from "~/img/dz-2.jpg";
+import sz1 from "~/img/sz-1.jpg";
 import hk2 from "~/img/hk-2.jpg";
 import hk3 from "~/img/hk-3.jpg";
 import hk4 from "~/img/hk-4.jpg";
@@ -17,51 +17,23 @@ import mp1 from "~/img/mp-1.jpg";
 import mp2 from "~/img/mp-2.jpg";
 import pj1 from "~/img/pj-1.jpg";
 import tl1 from "~/img/tl-1.jpg";
+import tz2 from "~/img/tz-2.jpg";
+import book1 from "~/img/book-1.jpg";
 
 type ADListType = Array<{ name: string; url: StaticImageData; className?: string }>;
 
 export default function Home() {
   const MainAdList: ADListType = [
-    {
-      name: "菜单",
-      url: cd1,
-    },
-    {
-      name: "菜单",
-      url: cd2,
-    },
-    {
-      name: "菜单",
-      url: cd3,
-    },
-    {
-      name: "菜单",
-      url: dz1,
-    },
-    {
-      name: "菜单",
-      url: hk1,
-    },
-    {
-      name: "菜单",
-      url: hk2,
-    },
-    {
-      name: "菜单",
-      url: hk3,
-    },
-    {
-      name: "菜单",
-      url: hk4,
-    },
-    {
-      name: "菜单",
-      url: mp1,
-    },
-    {
-      name: "菜单",
-      url: mp2,
-    },
+    { name: "菜单", url: cd2 },
+    { name: "收据", url: pj1 },
+    { name: "宣传单", url: cd3 },
+    { name: "手提袋", url: dz2 },
+    { name: "台历", url: tl1 },
+    { name: "笔记本", url: book1 },
+    { name: "名片", url: mp1 },
+    { name: "贴纸标签", url: tz2 },
+    { name: "广告扇", url: sz1 },
+    { name: "宣传折页", url: zy1 },
   ];
   return (
     <>
@@ -103,9 +75,13 @@ export default function Home() {
           <HorizontalWavySvg className="lg:rotate-[-90deg]" />
         </div>
       </div>
-      <div className="p-4 grid grid-cols-2 md:grid-cols-5 grid-rows-2 gap-4 md:h-screen md:px-16">
+      <div className="p-4 grid grid-cols-2 grid-rows-5 md:grid-cols-5  md:grid-rows-2 gap-4 md:px-16">
         {MainAdList?.map((ad, index) => (
-          <a href="#" key={index} className="relative block bg-black  md:col-span-1">
+          <a
+            href="#"
+            key={index}
+            className="relative block bg-black aspect-square  md:col-span-1"
+          >
             <div className="absolute top-0 right-0 left-0 m-auto z-10 text-center">
               <div className="inline-block w-full bg-black/20 text-gray-700 text-sm tracking-widest font-heading px-4 py-2">
                 <h3 className="font-display text-2xl text-white">{ad.name}</h3>
