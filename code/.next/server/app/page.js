@@ -319,7 +319,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 94960)), "E:\\myProject\\jsm-faas\\code\\src\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6824)), "E:\\myProject\\jsm-faas\\code\\src\\app\\page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41764))).default(props))],
     apple: [],
@@ -369,14 +369,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 50525:
+/***/ 28513:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 40408, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 10003));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71125));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 66922));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 34113));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 10003));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 51935));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20183));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 28215));
@@ -387,14 +387,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 64963));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 30613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18436));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 43434));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31343));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 87483));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 43434));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24396))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 77948))
 
 /***/ }),
 
-/***/ 24396:
+/***/ 77948:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -477,7 +477,7 @@ function Loading() {
     });
 }
 
-;// CONCATENATED MODULE: ./src/ui/contactButtons.tsx
+;// CONCATENATED MODULE: ./src/ui/ContactButtons.tsx
 /* __next_internal_client_entry_do_not_use__ ContactButtons auto */ 
 
 
@@ -548,7 +548,7 @@ function ContactButtons() {
 
 /***/ }),
 
-/***/ 94960:
+/***/ 6824:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -564,16 +564,16 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
 var module_proxy = __webpack_require__(35985);
-;// CONCATENATED MODULE: ./src/ui/contactButtons.tsx
+;// CONCATENATED MODULE: ./src/ui/ContactButtons.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`E:\myProject\jsm-faas\code\src\ui\contactButtons.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`E:\myProject\jsm-faas\code\src\ui\ContactButtons.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
 // and the $$typeof value is for rendering logic to determine if the module
 // is a client boundary.
 const { __esModule, $$typeof } = proxy;
-/* harmony default export */ const contactButtons = (proxy.default);
+/* harmony default export */ const ContactButtons = (proxy.default);
 
 const e0 = proxy["ContactButtons"];
 

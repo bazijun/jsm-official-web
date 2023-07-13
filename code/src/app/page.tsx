@@ -1,4 +1,4 @@
-import { ContactButtons } from "@/ui/contactButtons";
+import { ContactButtons } from "@/ui/ContactButtons";
 import { BigCommaSvg, HorizontalWavySvg, TelSvg, VerticalWavySvg } from "@/ui/svg";
 import Image, { StaticImageData } from "next/image";
 import yhLogoSrc from "~/img/yh-logo.jpg";
