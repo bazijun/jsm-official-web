@@ -2,6 +2,7 @@ import "./globals.css";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import policeBadgeSrc from "~/img/police-badge.png";
+import jsmLogoSrc from "~/img/jsm-logo.png";
 import Link from "next/link";
 import NavBar from "@/ui/navBar";
 
@@ -24,7 +25,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="min-h-screen">
           <nav className="w-full bg-white md:pt-0 px-6 shadow-lg z-20 border-b border-gray-400 sticky top-0">
             <div className="container mx-auto flex justify-between items-center text-sm md:text-md">
-              <header className="w-full text-center md:p-0">
+              <header className="w-full text-center md:p-0 flex items-center">
+                <div className="rounded-[50%] overflow-hidden">
+                  <Image src={jsmLogoSrc} alt="logo" priority width={50} height={50} />
+                </div>
                 <Link
                   href="/"
                   className="py-3 w-full text-lg text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-start items-center"

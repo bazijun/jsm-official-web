@@ -24,7 +24,7 @@ type ADListType = Array<{ name: string; url: StaticImageData; className?: string
 
 export default function Home() {
   const MainAdList: ADListType = [
-    { name: "菜单", url: cd2 },
+    { name: "贺卡", url: hk2 },
     { name: "收据", url: pj1 },
     { name: "宣传单", url: cd3 },
     { name: "手提袋", url: dz2 },
@@ -33,7 +33,7 @@ export default function Home() {
     { name: "名片", url: mp1 },
     { name: "贴纸标签", url: tz2 },
     { name: "广告扇", url: sz1 },
-    { name: "宣传折页", url: zy1 },
+    { name: "折页", url: zy1 },
   ];
   return (
     <>
